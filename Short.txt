@@ -26,5 +26,8 @@ git add "файлы" - указываем файлы, которые нужно 
 git commit -a -m "сообщение о комите" - сохраняем все изменения в файлах/коммитим 
 git config --local(или --global) user.name "Igor" - устанавливаем имя пользователя
 git config --local user.email "forseti23.07@gmail.com" - уст-ем почту
+git push -u origin main - загрузить новые файлы на сайт github после коммита (когда настроен глобал) 
+git clone адрес_с_гитхаб название проекта - копирует файлы на компьютер с гитхаба
+git pull - обновляет файлы на комп с гитбаха
 			--- Инфа по гиту----
 https://githowto.com/ru  | https://git-scm.com/book/ru/v2 | https://github.com/
